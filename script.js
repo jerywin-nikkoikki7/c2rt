@@ -3,23 +3,23 @@
   Customize the values in SITE_CONFIG below, then commit changes to GitHub.
 */
 const SITE_CONFIG = {
-  about: "I'm c2rt, also known as nikkoTV in Bloxd.io. This is my personal page for sharing my favorite game modes, packs, setup, and achievements. Edit this paragraph to tell visitors more about yourself.",
+  about: "A little corner of the internet for my Bloxd.io, Brawl Stars, and eFootball journey, with cool texture packs and things about me.",
   packs: [
     {
       name: "Cosmic Rift",
       category: "PvP",
-      description: "A featured pack in my collection. Add your own description, preview, and download link.",
-      downloadUrl: "" // Example: "downloads/cosmic-rift.zip"
+      description: "My main pack.",
+      downloadUrl: """
     },
     {
       name: "Default 2 Edit",
       category: "Edit",
-      description: "A default-style edit. Update this description with the changes and features of your version.",
-      downloadUrl: "" // Example: "downloads/default-2-edit.zip"
+      description: "A default-style edit, with minimal edits",
+      downloadUrl: """
     }
   ],
   socials: [
-    // Add public links, for example: { label: "YouTube", url: "https://youtube.com/@yourchannel" }
+   { label: "YouTube", url: "https://youtube.com/@cart_exists" }
   ]
 };
 
